@@ -8,7 +8,7 @@ const userRouter = require('./routes/user');
 
 
 // Init
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const DB = "mongodb+srv://radhasjt:Cadenza97256@cluster0.mqrtu.mongodb.net/amazonclone_db?retryWrites=true&w=majority"
 
